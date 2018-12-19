@@ -11,4 +11,9 @@ class HelloTest : StringSpec({
         hello("KotlinTest") shouldBe "Hello, KotlinTest!"
     }
 
+    "length should return the size of string 2" {
+        println("Running test")
+        RuntimeException().printStackTrace()
+        hello("KotlinTest") shouldBe "Hello, KotlinTest 2!"
+    }
 })
